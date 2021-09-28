@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8FBA8012703807E007CBF85 /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBA8002703807E007CBF85 /* BackGroundView.swift */; };
+		F8FBA805270383F4007CBF85 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBA804270383F4007CBF85 /* DataManager.swift */; };
+		F8FBA80727038889007CBF85 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBA80627038889007CBF85 /* CardView.swift */; };
+		F8FBA80927039AAD007CBF85 /* DealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBA80827039AAD007CBF85 /* DealView.swift */; };
+		F8FBA80B2703B707007CBF85 /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBA80A2703B707007CBF85 /* CardBackView.swift */; };
 		F8FE42EA2703150B00F28819 /* HearthStoneCardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE42E92703150B00F28819 /* HearthStoneCardGameApp.swift */; };
 		F8FE42EC2703150B00F28819 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE42EB2703150B00F28819 /* ContentView.swift */; };
 		F8FE42EE2703150C00F28819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FE42ED2703150C00F28819 /* Assets.xcassets */; };
 		F8FE42F12703150C00F28819 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FE42F02703150C00F28819 /* Preview Assets.xcassets */; };
+		F8FE42F82703170D00F28819 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE42F72703170D00F28819 /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8FBA8002703807E007CBF85 /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
+		F8FBA804270383F4007CBF85 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F8FBA80627038889007CBF85 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F8FBA80827039AAD007CBF85 /* DealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealView.swift; sourceTree = "<group>"; };
+		F8FBA80A2703B707007CBF85 /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
 		F8FE42E62703150B00F28819 /* HearthStoneCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthStoneCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FE42E92703150B00F28819 /* HearthStoneCardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthStoneCardGameApp.swift; sourceTree = "<group>"; };
 		F8FE42EB2703150B00F28819 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8FE42ED2703150C00F28819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8FE42F02703150C00F28819 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8FE42F72703170D00F28819 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				F8FE42E92703150B00F28819 /* HearthStoneCardGameApp.swift */,
+				F8FBA80827039AAD007CBF85 /* DealView.swift */,
+				F8FBA8002703807E007CBF85 /* BackGroundView.swift */,
 				F8FE42EB2703150B00F28819 /* ContentView.swift */,
+				F8FBA80627038889007CBF85 /* CardView.swift */,
+				F8FBA80A2703B707007CBF85 /* CardBackView.swift */,
+				F8FE42F72703170D00F28819 /* CardModel.swift */,
+				F8FBA804270383F4007CBF85 /* DataManager.swift */,
 				F8FE42ED2703150C00F28819 /* Assets.xcassets */,
 				F8FE42EF2703150C00F28819 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FE42EC2703150B00F28819 /* ContentView.swift in Sources */,
+				F8FBA805270383F4007CBF85 /* DataManager.swift in Sources */,
+				F8FBA80927039AAD007CBF85 /* DealView.swift in Sources */,
+				F8FBA80B2703B707007CBF85 /* CardBackView.swift in Sources */,
 				F8FE42EA2703150B00F28819 /* HearthStoneCardGameApp.swift in Sources */,
+				F8FBA8012703807E007CBF85 /* BackGroundView.swift in Sources */,
+				F8FBA80727038889007CBF85 /* CardView.swift in Sources */,
+				F8FE42F82703170D00F28819 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +301,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
